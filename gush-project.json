@@ -1,0 +1,19 @@
+{
+  "name": "chat",
+  "display_name": "Chat",
+  "type": "php-app",
+  "version": "1.0.0",
+  "description": "New project",
+  "author": "Developer",
+  "license": "MIT",
+  "generated_by": "Gush AI Codex V10.5",
+  "generated_at": "2026-08-13T03:09:33.619Z",
+  "files": [
+    "public/index.html",
+    "public/css/style.css",
+    "public/js/chat.js",
+    "src/chats.php",
+    "gush-project.json",
+    ".gitignore"
+  ]
+}
