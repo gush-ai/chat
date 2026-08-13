@@ -1,0 +1,24 @@
+<!-- File: public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple PHP AI Chat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="chat-container">
+        <header class="chat-header">
+            <h1>AI Chat</h1>
+            <button id="clearBtn" title="Clear conversation">🗑️</button>
+        </header>
+        <ul id="chatLog" class="chat-log"></ul>
+        <form id="chatForm" class="chat-form" autocomplete="off">
+            <input type="text" id="userInput" placeholder="Type a message…" required>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="js/chat.js" type="module"></script>
+</body>
+</html>
